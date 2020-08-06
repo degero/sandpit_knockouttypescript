@@ -1,4 +1,3 @@
-import * as ko from "knockout";
 import HelloWorldComp from "./HelloWorld";
 
 describe("test", () => {
