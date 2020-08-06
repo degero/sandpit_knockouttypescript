@@ -11,7 +11,6 @@ class Test {
     this.framework = ko.observable(framework);
   }
 }
-ko.components.register("hello-world", HelloWorld);
 
-// ko.applyBindings(new Test("TypeScript", "Knockout"));
+ko.components.register("hello-world", HelloWorld);
 ko.applyBindings();
