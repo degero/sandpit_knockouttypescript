@@ -5,26 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+      "name": "Launch Chrome Debug",
       "request": "launch",
       "type": "pwa-chrome",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}"
-    },
-    {
-      "name": "Attach to Chrome",
-      "port": 9222,
-      "request": "attach",
-      "type": "pwa-chrome",
-      "webRoot": "${workspaceFolder}"
-    },
-    {
-      "name": "Launch via NPM",
-      "request": "launch",
-      "runtimeArgs": ["run-script", "start"],
-      "runtimeExecutable": "npm",
-      "skipFiles": ["<node_internals>/**"],
-      "type": "pwa-node"
     }
   ]
 }
